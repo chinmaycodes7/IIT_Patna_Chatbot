@@ -48,12 +48,6 @@ IIT_Patna_Chatbot/
 │   ├── 01_data_ingestion.ipynb
 │   └── 02_rag_inference.ipynb
 │
-├── docs/
-│   └── IIT_Patna_Academic_Assistant.pdf
-│
-├── images/
-│   └── demo.png
-│
 ├── requirements.txt
 └── README.md
 ```
@@ -162,25 +156,6 @@ TinyLlama provides a lightweight generation component with lower compute and mem
 
 ### Why FAISS?
 FAISS provides efficient vector similarity search and allows retrieved document chunks to be supplied as external context to the language model.
-
-## Limitations
-
-- Answer quality depends on the quality and coverage of the indexed documents.
-- The system can only answer questions supported by the indexed knowledge base.
-- TinyLlama is a relatively small language model, so generation quality is limited compared with larger models.
-- The FAISS index needs to be rebuilt when the underlying document collection is substantially updated.
-- The current chat interface does not display source citations for retrieved chunks.
-
-## Future Improvements
-
-- Automatic periodic crawling and index updates
-- Source/document citations in generated answers
-- Improved chunking and metadata-aware retrieval
-- Hybrid keyword + semantic retrieval
-- Reranking retrieved passages
-- Evaluation using a curated IIT Patna QA benchmark
-- Comparison of different embedding and language models
-- Improved conversational memory and multi-turn question handling
 
 ## Project Presentation
 
