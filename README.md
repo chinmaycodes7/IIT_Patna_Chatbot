@@ -186,13 +186,6 @@ FAISS provides efficient vector similarity search and allows retrieved document 
 
 The project presentation is available in the `docs/` directory.
 
-## Authors
-
-- Arpit Pandey
-- Sooraj Veer R
-- Chinmay Bhat
-- Anmol Kashyap
-
 ## Disclaimer
 
 This project is an academic/research prototype. Answers are generated from the indexed academic database and should be verified against the latest official IIT Patna sources for time-sensitive or high-stakes information.
